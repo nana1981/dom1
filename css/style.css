@@ -1,0 +1,66 @@
+body,html{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+#gallery{
+    
+    width:900px;
+    height:555px;
+    margin:0 auto;
+    display: block;
+}
+
+#gallery .photos{
+    position:absolute;
+    width:800px;
+}
+
+#gallery img{
+    position:absolute;
+    width:900px;
+    height:555px;
+    opacity: 0;
+    margin:0 auto;
+    margin-left:-400px;
+    transition:opacity 0.5s;
+    
+}
+
+#gallery img:first-child{
+    opacity: 1;
+    
+}
+#gallery img.show{
+    opacity: 1;
+}
+
+.buttons{
+    
+    position: absolute;;
+    width:900px;
+    height:40px;
+    top:530px;
+    text-align: center;    
+}
+
+.buttons button {
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    border:4px solid rgb(36, 6, 119);
+    cursor: pointer;
+    width: 100px;
+    background-color:rgb(197, 227, 245) ;
+}
+
+.buttons button.prev{
+    margin-right: 650px;
+    
+    
+}
+
+.buttons button.next{
+    
+}
